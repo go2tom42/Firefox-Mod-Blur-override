@@ -21,3 +21,9 @@ cp -fr "./nox/Multirow and other functions/JS Loader/root/config.js" "./Firefox 
 md "./chrome/utils"
 cp -fr "./nox/Multirow and other functions/JS Loader/utils" "./chrome/utils"
 cp -fr "./nox/Multirow and other functions/Multirow tabs/MultiRowTabLiteforFx.uc.js" "./chrome/MultiRowTabLiteforFx.uc.js"
+
+cp -fr "./override/old_userChrome-override.css" "./chrome/old_userChrome-override.css"
+cp -fr "./override/old_userContent-override.css" "./chrome/old_userContent-override.css"
+cp -fr "./override/sideberry_Vtabs.css" "./chrome/sideberry_Vtabs.css"
+cp -fr "./override/userChrome.css" "./chrome/userChrome.css"
+cp -fr "./override/userContent.css" "./chrome/userContent.css"
