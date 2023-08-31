@@ -11,14 +11,13 @@ cp -fr "./blur117/EXTRA MODS/Remove text from homepage shortcuts/remove_homepage
 cp -fr "./blur117/EXTRA MODS/Colored sound playing tab/colored_soundplaying_tab.css" "./chrome/colored_soundplaying_tab.css"
 cp -fr "./blur117/userChrome.css" "./chrome/old_userChrome.css"
 cp -fr "./blur117/userContent.css" "./chrome/old_userContent.css"
-mkdir "./chrome/image"
+
 cp -fr "./blur117/image" "./chrome/image"
 
-mkdir "./Firefox Install Folder/defaults"
+
 cp -fr "./nox/Multirow and other functions/JS Loader/root/defaults" "./Firefox Install Folder/defaults"
 cp -fr "./nox/Multirow and other functions/JS Loader/root/config.js" "./Firefox Install Folder/config.js"
 
-mkdir "./chrome/utils"
 cp -fr "./nox/Multirow and other functions/JS Loader/utils" "./chrome/utils"
 cp -fr "./nox/Multirow and other functions/Multirow tabs/MultiRowTabLiteforFx.uc.js" "./chrome/MultiRowTabLiteforFx.uc.js"
 
