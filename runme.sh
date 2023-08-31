@@ -2,7 +2,7 @@
 git submodule sync
 git submodule update --init --recursive
 rm -r "./chrome"
-md "./chrome"
+mkdir "./chrome"
 cp -fr "./blur117/EXTRA MODS/Circular homepage shortcuts/circular_homepage_shortcuts.css" "./chrome/circular_homepage_shortcuts.css"
 cp -fr "./blur117/EXTRA MODS/Compact extensions menu/Style 1/cleaner_extensions_menu.css" "./chrome/cleaner_extensions_menu.css"
 cp -fr "./blur117/EXTRA MODS/Icon mods/Icons in main menu/icons_in_main_menu.css" "./chrome/icons_in_main_menu.css"
@@ -11,14 +11,14 @@ cp -fr "./blur117/EXTRA MODS/Remove text from homepage shortcuts/remove_homepage
 cp -fr "./blur117/EXTRA MODS/Colored sound playing tab/colored_soundplaying_tab.css" "./chrome/colored_soundplaying_tab.css"
 cp -fr "./blur117/userChrome.css" "./chrome/old_userChrome.css"
 cp -fr "./blur117/userContent.css" "./chrome/old_userContent.css"
-md "./chrome/image"
+mkdir "./chrome/image"
 cp -fr "./blur117/image" "./chrome/image"
 
-md "./Firefox Install Folder/defaults"
+mkdir "./Firefox Install Folder/defaults"
 cp -fr "./nox/Multirow and other functions/JS Loader/root/defaults" "./Firefox Install Folder/defaults"
 cp -fr "./nox/Multirow and other functions/JS Loader/root/config.js" "./Firefox Install Folder/config.js"
 
-md "./chrome/utils"
+mkdir "./chrome/utils"
 cp -fr "./nox/Multirow and other functions/JS Loader/utils" "./chrome/utils"
 cp -fr "./nox/Multirow and other functions/Multirow tabs/MultiRowTabLiteforFx.uc.js" "./chrome/MultiRowTabLiteforFx.uc.js"
 
