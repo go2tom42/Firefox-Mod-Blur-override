@@ -1,6 +1,9 @@
-name: create-map
-on: push
-
+name: copy files to chrome folder
+on: 
+  push:
+  schedule:
+    # min hours day(month) month day(week)
+    - cron: '0 0 */1 * *'
 jobs:
   run_tests:
     runs-on: ubuntu-20.04
