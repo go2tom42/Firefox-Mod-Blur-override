@@ -6,13 +6,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '12'
-        check-latest: true
     - name: Run script file
       run: |
          chmod +x ./runme.sh
          ./runme.sh
-         git push
       shell: bash
+    - name: Commit report
+      run: |
+        git push
