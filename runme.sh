@@ -10,4 +10,4 @@ cp "./blur117/EXTRA THEMES/Spill Theme Files/spill-style-part1-file.css" "./chro
 cp "./blur117/EXTRA THEMES/Spill Theme Files/spill-style-part2-file.css" "./chrome/spill-style-part2-file.css"
 cp "./blur117/userChrome.css" "./chrome/old_userChrome.css"
 cp "./blur117/userContent.css" "./chrome/old_userContent.css"
-git push target master
+git push . master
