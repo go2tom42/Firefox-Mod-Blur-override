@@ -13,4 +13,5 @@ jobs:
       shell: bash
     - name: Commit report
       run: |
+        git commit -m "<some commit message>"
         git push
