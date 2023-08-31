@@ -6,6 +6,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --firefoxcss-non-active-tabs: #FFFFFF;}
+  @import url("-spill-style-part1-file.css");
+  @import url("-spill-style-part2-file.css");
 }
 
 
