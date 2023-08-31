@@ -12,6 +12,8 @@ jobs:
         check-latest: true
     - name: Run script file
       run: |
+         git submodule sync
+         git submodule update --init --recursive
          chmod +x ./runme.sh
          ./runme.sh
       shell: bash
