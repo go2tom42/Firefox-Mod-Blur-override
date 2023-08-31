@@ -5,13 +5,10 @@ jobs:
   run_tests:
     runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '12'
-        check-latest: true
+    - uses: actions/checkout@v3
     - name: Run script file
       run: |
          chmod +x ./runme.sh
          ./runme.sh
       shell: bash
+    - uses: stefanzweifel/git-auto-commit-action@v4
