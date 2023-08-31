@@ -1,6 +1,8 @@
 #!/bin/sh
 git submodule sync
 git submodule update --init --recursive
+rm -r "./chrome"
+md "./chrome"
 cp -fr "./blur117/EXTRA MODS/Circular homepage shortcuts/circular_homepage_shortcuts.css" "./chrome/circular_homepage_shortcuts.css"
 cp -fr "./blur117/EXTRA MODS/Compact extensions menu/Style 1/cleaner_extensions_menu.css" "./chrome/cleaner_extensions_menu.css"
 cp -fr "./blur117/EXTRA MODS/Icon mods/Icons in main menu/icons_in_main_menu.css" "./chrome/icons_in_main_menu.css"
