@@ -1,0 +1,122 @@
+:root {
+  --firefoxcss-border-radius: 2px !important;
+}
+
+:root {
+  --tab-min-height: 21px !important;
+}
+:root #tabbrowser-tabs {
+  --tab-min-height: 21px !important;
+}
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
+  margin-inline-start: 0px !important;
+}
+
+#toolbar-menubar {
+  line-height: 20px !important;
+  max-height: 20px !important;
+}
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0px !important;
+}
+.tabbrowser-tab .tab-background:not([selected]) {
+  padding-inline: 0px !important;
+}
+.tabbrowser-tab {
+    max-height: calc(var(--tab-min-height) + var(--toolbarbutton-inner-padding)) !important;
+	padding-inline: 1px !important;
+}
+
+.tabbrowser-tab[pinned] {
+  max-width: 30px !important;
+}
+
+/* Narrow the gap between the favicon and the title */
+.tab-icon-image:[pinned] {
+    margin-inline-end: 2px !important;
+}
+.tab-content {
+    padding: 0 4px !important;
+}
+#PlacesToolbarItems > .bookmark-item[container] {
+	fill: cyan !important;
+}
+
+.tabbrowser-tab:not([pinned]) {
+    width: 100px !important;
+}
+#urlbar .urlbar-input-box {
+  text-align: left;
+}
+#nav-bar:not([customizing="true"]):not(.searchButton)
+  > #nav-bar-customization-target
+  > #urlbar-container:not(:hover)
+  > #urlbar:not([focused])
+  > #urlbar-input-container
+  > :is(#page-action-buttons) {
+  opacity: 100;
+  transition-delay: 0ms;
+}
+#urlbar #identity-icon {
+  visibility: visible !important;
+  transition: 0ms !important;
+  opacity: 1 !important;
+  -moz-margin-end: initial !important;
+}
+#main-window #TabsToolbar {
+  height: 100% !important;
+  overflow: hidden;
+  transition: height .3s .3s !important;
+}
+
+#PlacesToolbarItems > .bookmark-item {
+  padding-block: 6px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+
+
+#nav-bar.browser-toolbar {
+  height: 30px !important;
+}
+#urlbar-container {
+  --urlbar-container-height: 35x !important;
+}
+
+#urlbar-container #urlbar {
+  --urlbar-toolbar-height: 28px !important;
+  --urlbar-height: 29px !important;
+  --urlbar-min-height: 25px !important;
+}
+
+
+toolbarbutton {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+#TabsToolbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+#OtherBookmarks {
+  display: none !important;
+}
+.tabbrowser-tab:not([visuallyselected="true"]):not([multiselected]):not(:hover) .tab-label-container 
+.tab-label {
+  color: hsl(0, 100%, 100%) !important;
+}
+
+#titlebar-buttonbox {
+  vertical-align: top !important;
+  display: block !important;
+}
+
+
+
+/* Pinned tabs padding  */
+:root:not([uidensity="compact"]) .tab-content[pinned] {
+  padding: 0 4px !important;
+}
+@import url("sideberry_Vtabs.css");
