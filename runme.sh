@@ -12,3 +12,11 @@ cp -fr "./blur117/userChrome.css" "./chrome/old_userChrome.css"
 cp -fr "./blur117/userContent.css" "./chrome/old_userContent.css"
 md "./chrome/image"
 cp -fr "./blur117/image" "./chrome/image"
+
+md "./Firefox Install Folder/defaults"
+cp -fr "./nox/Multirow and other functions/JS Loader/root/defaults" "./Firefox Install Folder/defaults"
+cp -fr "./nox/Multirow and other functions/JS Loader/root/config.js" "./Firefox Install Folder/config.js"
+
+md "./chrome/utils"
+cp -fr "./nox/Multirow and other functions/JS Loader/utils" "./chrome/utils"
+cp -fr "./nox/Multirow and other functions/Multirow tabs/MultiRowTabLiteforFx.uc.js" "./chrome/MultiRowTabLiteforFx.uc.js"
