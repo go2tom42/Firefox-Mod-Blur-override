@@ -1,3 +1,6 @@
 [submodule "blur117"]
 	path = blur117
 	url = https://github.com/datguypiko/Firefox-Mod-Blur
+[submodule "nox"]
+	path = nox
+	url = https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme
