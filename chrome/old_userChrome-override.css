@@ -91,7 +91,6 @@
   --urlbar-min-height: 25px !important;
 }
 
-
 toolbarbutton {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -114,9 +113,12 @@ toolbarbutton {
 }
 
 
-
 /* Pinned tabs padding  */
 :root:not([uidensity="compact"]) .tab-content[pinned] {
   padding: 0 4px !important;
+}
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab[selected][fadein]:not([pinned]) {
+   max-width: var(--firefoxcss-tab-max-width) !important;
+   min-width: var(--firefoxcss-tab-max-width) !important;
 }
 @import url("sideberry_Vtabs.css");
