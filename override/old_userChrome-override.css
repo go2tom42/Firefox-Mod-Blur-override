@@ -1,5 +1,17 @@
+
+@media (prefers-color-scheme: light){
+  :root {
+  --firefoxcss-tab-bg-color: #D0E4FE !important; }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --firefoxcss-non-active-tabs: #FFFFFF;}
+}
+
+
+
 :root {
-  --firefoxcss-border-radius: 2px !important;
+  --firefoxcss-border-radius: 4px !important;
 }
 
 :root {
@@ -103,9 +115,7 @@ toolbarbutton {
   display: none !important;
 }
 .tabbrowser-tab:not([visuallyselected="true"]):not([multiselected]):not(:hover) .tab-label-container 
-.tab-label {
-  color: hsl(0, 100%, 100%) !important;
-}
+
 
 #titlebar-buttonbox {
   vertical-align: top !important;
