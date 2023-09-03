@@ -129,3 +129,8 @@ toolbarbutton {
    max-width: var(--firefoxcss-tab-max-width) !important;
    min-width: var(--firefoxcss-tab-max-width) !important;
 }
+#PersonalToolbar {
+  max-height: 25px !important;
+  background-color: hsl(240, 2%, 20%) !important;
+  color: white !important;
+}
