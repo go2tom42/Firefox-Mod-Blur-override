@@ -3,16 +3,25 @@
          --firefoxcss-tab-bg-color: #D0E4FE !important;
     }
      #TabsToolbar .tabbrowser-tab:is([selected], [multiselected]), #TabsToolbar .tabbrowser-tab:hover{
+         background-color: white !important;
          color: black !important;
+    }
+     #TabsToolbar #tabbrowser-tabs .tabbrowser-tab:is([pinned]) .tab-background:not([selected]) {
+         background-color: #D0E4FE !important;
+         box-shadow: none !important;
+    }
+    /* Normal tabs design on hover */
+     #TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+         background-color: hsl(240, 2%, 99%) !important;
+         box-shadow: 1px 1px 1px -1px rgba(0, 0, 0, 0.4) !important;
     }
      #TabsToolbar #tabbrowser-tabs .tabbrowser-tab .tab-background[selected] {
          color: black !important;
          background-color: white !important;
     }
-        #PersonalToolbar {
+     #PersonalToolbar {
          max-height: 25px !important;
          background-color: hsl(240, 10%, 92%) !important;
-
     }
 }
  @media (prefers-color-scheme: dark) {
