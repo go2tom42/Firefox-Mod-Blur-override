@@ -8,6 +8,12 @@ cp -fr "./blur117/EXTRA MODS/Compact extensions menu/Style 1/cleaner_extensions_
 cp -fr "./blur117/EXTRA MODS/Icon mods/Icons in main menu/icons_in_main_menu.css" "./chrome/icons_in_main_menu.css"
 cp -fr "./blur117/EXTRA MODS/Min-max-close window buttons/Right side default system buttons/MenuButtonsOnLeft/min-max-close_buttons.css" "./chrome/min-max-close_buttons.css"
 cp -fr "./blur117/EXTRA MODS/Colored sound playing tab/colored_soundplaying_tab.css" "./chrome/colored_soundplaying_tab.css"
+cp -fr "./blur117/EXTRA MODS/No search engine buttons in search/no_search_engines_in_url_bar.css" "./chrome/no_search_engines_in_url_bar.css"
+cp -fr "./blur117/EXTRA MODS/Pinned Tabs Have no background color/pinned_tabs_no_bg_color.css" "./chrome/pinned_tabs_no_bg_color.css"
+cp -fr "./blur117/EXTRA MODS/Remove border from search bar/url_bar_no_border.css" "./chrome/url_bar_no_border.css"
+cp -fr "./blur117/EXTRA MODS/Tabs - reversed background color/reversed_tabs_bg_color.css" "./chrome/reversed_tabs_bg_color.css"
+
+
 cp -fr "./blur117/userChrome.css" "./chrome/old_userChrome.css"
 cp -fr "./blur117/userContent.css" "./chrome/old_userContent.css"
 cp -fr "./blur117/image" "./chrome/image"
