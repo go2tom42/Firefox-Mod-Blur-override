@@ -1,0 +1,53 @@
+@-moz-document domain(democraticunderground.com) {
+.left-col {
+    display: none !important;
+}
+.main-container {
+	max-width: 90% !important;
+}
+
+.reply {
+	max-width: 100% !important;
+}
+
+.reply-box {
+	max-width: 100% !important;
+}
+
+.location-trail-container {
+	max-width: 90% !important;
+}
+
+.header-inner {
+	max-width: 90% !important;
+}
+
+.center-col {
+	padding: 15px 0px 0px 0px !important;
+}
+
+.nav-sitesearch-button-container {
+	left: calc(50% + 750px) !important;
+}
+
+.location-trail-bottom {
+	max-width: 90% !important;
+	text-align: left !important;
+}
+
+.removed-box {
+	max-width: 90% !important;
+}
+
+.reply-button-bottom-container {
+	width: 90% !important;
+}
+
+.op-notes-container {
+    display: none !important;
+}
+.video-embed {
+	padding-bottom: 25% !important;
+	max-width: 50% !important;
+}
+}
