@@ -30,3 +30,4 @@ cp -fr "./override/old_userContent-override.css" "./chrome/old_userContent-overr
 cp -fr "./override/sideberry_Vtabs.css" "./chrome/sideberry_Vtabs.css"
 cp -fr "./override/userChrome.css" "./chrome/userChrome.css"
 cp -fr "./override/userContent.css" "./chrome/userContent.css"
+cp -fr "./override/userContent-mysites.css" "./chrome/userContent-mysites.css"
