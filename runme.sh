@@ -31,3 +31,8 @@ cp -fr "./override/sideberry_Vtabs.css" "./chrome/sideberry_Vtabs.css"
 cp -fr "./override/userChrome.css" "./chrome/userChrome.css"
 cp -fr "./override/userContent.css" "./chrome/userContent.css"
 cp -fr "./override/userContent-mysites.css" "./chrome/userContent-mysites.css"
+
+git submodule update --remote
+git add .
+git commit -m "git submodule updated"
+git push origin
