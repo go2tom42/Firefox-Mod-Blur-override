@@ -103,7 +103,7 @@
      height: 30px !important;
 }
  #urlbar-container {
-     --urlbar-container-height: 35x !important;
+     --urlbar-container-height: 35px !important;
 }
  #urlbar-container #urlbar {
      --urlbar-toolbar-height: 28px !important;
