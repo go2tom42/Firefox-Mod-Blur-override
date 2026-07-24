@@ -185,17 +185,16 @@
   }
 
   /* Fix purple background color when switching tabs in private 
-window for this specific moz preference. */
-  @media -moz-pref("browser.privatebrowsing.felt-privacy-v1") {
-    html.private {
+  window for this specific moz preference. */
+  html.private {
       --background-color-canvas: var(--firefoxcss-main-bg-color) !important;
       background: var(--firefoxcss-main-bg-color) !important;
-    }
+   }
 
-    .info-border {
+  /*   Removes new tab page "leave no traces.." info container */
+    .showPrivate.showSearch.container .info-border {
       display: none !important;
-    }
-  }
+  } 
 
   /* html.private {
 		background-color: #1e1e1e80 !important;
@@ -248,10 +247,6 @@ window for this specific moz preference. */
   .logo-and-wordmark .wordmark {
     fill: #8f25d1 !important;
     opacity: 0.9 !important;
-  }
-
-  .showPrivate.showSearch.container .info {
-    display: none !important;
   }
 
   .private .search-inner-wrapper {
@@ -2258,7 +2253,7 @@ url("about:newtab") {
   "- Searchbar\A"
   "   • mod.search.info.buttons.show.always\A"
   "   • mod.searchbox.focus.outline.enable\A"
-  "   • Experimental: mod.popout.searchbar • mod.popout.searchbar.no-animation\A"
+  "   • Experimental: mod.popout.searchbar • mod.popout.searchbar.no-animation\A (if HDR used, it may turn off while searchbar is open)"
   " \A "
   "- Tabs\A"
   "   • mod.tabs.on.top.enable\A"
@@ -2271,7 +2266,7 @@ url("about:newtab") {
   "   • mod.disable.browser.border-and-shadow\A"
   "   • mod.main.window.frame.style-1  •  mod.main.window.frame.style-2\A"
   " \A "
-  "- Extra Blur mods:\A"
+  "- Extra Blur mods (HDR doesnt work with this enabled since v153):\A"
   "   • mod.panel-menu.blur\A"
   "   • mod.searchbar.blur\A"
   "   • mod.vertical-tabs.expand.blur\A"
