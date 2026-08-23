@@ -681,8 +681,8 @@ about:config -> svg.context-properties.content.enabled -> true*/
 }
 
 /* Center search box text  */
-#urlbar .urlbar-input-box {
-  text-align: center;
+#urlbar #urlbar-input {
+  text-align: center !important;
 }
 
 /* Search outline disabled by default  */
